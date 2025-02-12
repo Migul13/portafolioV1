@@ -185,6 +185,10 @@ input, select, textarea {
 		max-width: 100%;
 		width: 68em;
 	}
+	.container h3 {
+		font-size: 1.5em;
+		margin-bottom: 1.5em;
+	}
 
 		@media screen and (max-width: 1680px) {
 
@@ -219,7 +223,7 @@ input, select, textarea {
 		}
 
 /* Row */
-
+/*Configuracion de las filas*/
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -468,6 +472,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: space-between;
 			}
 
 				.row > * {
@@ -901,6 +906,7 @@ input, select, textarea {
 				.row {
 					margin-top: -35px;
 					margin-left: -35px;
+					justify-content: space-around;
 				}
 
 					.row > * {
@@ -1146,6 +1152,7 @@ input, select, textarea {
 				.row {
 					margin-top: -50px;
 					margin-left: -50px;
+					justify-content: space-around;
 				}
 
 					.row > * {
@@ -1203,6 +1210,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: space-around;
 			}
 
 				.row > * {
@@ -2101,6 +2109,14 @@ input, select, textarea {
 			font-size: 2em;
 			letter-spacing: 0.25em;
 		}
+		#logo h2 {
+			font-weight: 600;
+			text-transform: uppercase;
+			color: #fff;
+			font-size: 2.4em;
+			letter-spacing: 0.25em;
+			margin-top: 1em;
+		}
 
 		#logo p {
 			color: #eee;
@@ -2225,8 +2241,9 @@ input, select, textarea {
 	}
 
 		#intro p.style1 {
-			font-size: 2em;
+			font-size: 6em;
 			letter-spacing: 0.075em;
+			font-weight: bold
 		}
 
 		#intro p.style2 {
@@ -2251,6 +2268,11 @@ input, select, textarea {
 			width: 48em;
 			margin: 0 auto;
 		}
+		#intro section p{
+			margin-bottom: 0px;
+			font-size: 1.1em;
+			font-weight: bold;
+		}
 
 /* Features */
 
@@ -2273,6 +2295,10 @@ input, select, textarea {
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
+		}
+		#highlights p {
+			text-align: justify;
+			font-size: 1.3em;
 		}
 
 /* Main */
@@ -2426,6 +2452,9 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
+			}
+			#intro p.style1 {
+				font-size: 1.5em;
 			}
 
 	}
@@ -2790,6 +2819,7 @@ input, select, textarea {
 			}
 
 				header.style1 h2 {
+					padding-top: 1em;
 					font-size: 1.5em;
 					letter-spacing: 0.075em;
 					line-height: 1.25em;
@@ -2800,6 +2830,7 @@ input, select, textarea {
 					letter-spacing: 0;
 					display: block;
 					margin: 0;
+					padding-bottom: 5em;
 				}
 
 		/* Button */
@@ -2901,6 +2932,11 @@ input, select, textarea {
 					letter-spacing: 0.2em;
 				}
 
+				#logo h2 {
+					font-size: 1.3em;
+					letter-spacing: 0.2em;
+				}
+
 				#logo p {
 					margin: 1.25em 0 0 0;
 					display: block;
@@ -2927,6 +2963,10 @@ input, select, textarea {
 					letter-spacing: 0.05em;
 					line-height: 1.25em;
 					padding: 1.25em;
+				}
+				
+				#intro section p{
+					margin-bottom: 0px;
 				}
 
 		/* Features */
@@ -2961,9 +3001,19 @@ input, select, textarea {
 					border-bottom: 0;
 				}
 
+				#footer #header .style1 p {
+					padding-bottom: 0;
+					margin-bottom: 2em;
+					border-bottom: 0;
+				}
+
 				#footer .feature-list {
 					border-top: 0;
 					padding-top: 0;
+				}
+
+				#footer #header h2 {
+					margin-top: 2em;
 				}
 
 		/* Copyright */
