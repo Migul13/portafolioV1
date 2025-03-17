@@ -1,0 +1,11 @@
+# Ignorar la carpeta node_modules
+/node_modules/
+
+# Ignorar la carpeta dist/ 
+dist/
+
+# Ignorar archivos generados por IDEs
+.vscode 
+
+# Ignorar archivos de log
+*.log

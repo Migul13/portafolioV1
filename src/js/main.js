@@ -1,3 +1,4 @@
+import '../css/main.css'; 
 /*
 	Escape Velocity by HTML5 UP
 	html5up.net | @ajlkn
